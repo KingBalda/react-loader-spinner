@@ -45,7 +45,7 @@ export const Puff: FunctionComponent<PuffProps> = ({
             repeatCount="indefinite"
           />
           <animate
-            attributeName="strokeOpacity"
+            attributeName="stroke-opacity"
             begin="0s"
             dur="1.8s"
             values="1; 0"
@@ -67,7 +67,7 @@ export const Puff: FunctionComponent<PuffProps> = ({
             repeatCount="indefinite"
           />
           <animate
-            attributeName="strokeOpacity"
+            attributeName="stroke-opacity"
             begin="-0.9s"
             dur="1.8s"
             values="1; 0"
